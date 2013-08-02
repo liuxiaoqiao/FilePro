@@ -37,7 +37,6 @@ public class MD5 {
 		return s;
 	}
 
-	// º”√‹∫ÛΩ‚√‹
 	public static String JM(String inStr) {
 		char[] a = inStr.toCharArray();
 		for (int i = 0; i < a.length; i++) {
@@ -47,12 +46,12 @@ public class MD5 {
 		return k;
 	}
 
-	// ≤‚ ‘÷˜∫Ø ˝
+
 	public static void main(String args[]) {
 		String s = new String("1");
-		System.out.println("‘≠ º£∫" + s);
-		System.out.println("MD5∫Û£∫" + MD5(s));
-		System.out.println("MD5∫Û‘Ÿº”√‹£∫" + KL(MD5(s)));
-		System.out.println("Ω‚√‹Œ™MD5∫Ûµƒ£∫" + JM(KL(MD5(s))));
+		System.out.println("‘≠ ºÔøΩÔøΩ" + s);
+		System.out.println("MD5ÔøΩÔøΩÔøΩÔøΩ" + MD5(s));
+		System.out.println("MD5ÔøΩÔøΩÔøΩŸºÔøΩÔøΩ‹£ÔøΩ" + KL(MD5(s)));
+		System.out.println("ÔøΩÔøΩÔøΩÔøΩŒ™MD5ÔøΩÔøΩÔøΩƒ£ÔøΩ" + JM(KL(MD5(s))));
 	}
 }
