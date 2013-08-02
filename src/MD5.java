@@ -1,7 +1,7 @@
 import java.security.MessageDigest;
 
 public class MD5 {
-	// MD5加码。32位
+
 	public static String MD5(String inStr) {
 		MessageDigest md5 = null;
 		try {
@@ -26,7 +26,7 @@ public class MD5 {
 		return hexValue.toString();
 	}
 
-	// 可逆的加密算法
+
 	public static String KL(String inStr) {
 		// String s = new String(inStr);
 		char[] a = inStr.toCharArray();
